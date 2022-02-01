@@ -1,5 +1,7 @@
 # Dice Roll API
 
+Dice roller API. (Pseudo-random)
+
 Usage: `/api/:dice_code` where `dice_code`
 is "d" followed by number of sides.
 
