@@ -36,8 +36,6 @@ module.exports.roll = function(dice_code) {
     }
 
     const [ numRolls, sides, constant ] = this._splitDiceLiteral(dice_code);
-    console.log(numRolls, sides);
-
     let result = 0;
     for(let i = 0; i < numRolls; ++i) {
         result += 1 + Math.floor(Math.random()*sides);
