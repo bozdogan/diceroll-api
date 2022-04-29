@@ -76,7 +76,7 @@ describe("api", () => {
   
   const ROLL_TEST_CONSTANT = 20;
   
-  describe("#_roll", () => {
+  describe("#roll", () => {
     it(`should be in range [2, 20] for rolling "2d10"`, () => {
       // NOTE(bora): Cannot seed Math.random(), so I'll basically
       // run it a couple times to see if it breaks..
